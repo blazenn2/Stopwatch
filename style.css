@@ -1,0 +1,29 @@
+.stopwatch{
+    width: 600px;
+    border: solid black 3px;
+    border-radius: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellow;
+}
+
+.stopwatch-digits-section {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px black;
+    margin: 10px 0px;
+    background-color: green;
+}
+
+.stopwatch-digits{
+    width: 150px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    background-color: white;
+}

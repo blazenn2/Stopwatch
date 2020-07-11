@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <section class="stopwatch-body align-items-center">
+        <div class="d-flex align-items-center justify-content-center">
+            <div class="d-flex justify-content-center">
+                <h1>STOP WATCH</h1>
+            </div>
+
+            <section class="d-flex justify-content-around container py-4">
+                <div class="stop-watch-digits d-flex justify-content-center">
+                    <h1 id="min">0</h1>
+                </div>
+                <div class="stop-watch-digits d-flex justify-content-center">
+                    <h1 id="sec">0</h1>
+                </div>
+                <div class="stop-watch-digits d-flex justify-content-center">
+                    <h1 id="msec">0</h1>
+                </div>
+            </section>
+
+            <section class="d-flex justify-content-around container-fluid">
+                <div class="">
+                    <button id="start" onclick="start()">START</button>
+                    <button id="stop" onclick="stop()">STOP</button>
+                    <button onclick="reset()">RESET</button>
+                </div>
+
+            </section>
+        </div>
+
+    </section> -->
+
+    <section class="stopwatch">
+        <div>
+            <h1>STOP WATCH</h1>
+        </div>
+
+        <section class="stopwatch-digits-section">
+            <div class="stopwatch-digits">
+                <h1 id="min">0</h1>
+            </div>
+            <div class="stopwatch-digits">
+                <h1 id="sec">0</h1>
+            </div>
+            <div class="stopwatch-digits">
+                <h1 id="msec">0</h1>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <button class="btn btn-warning"  id="start" onclick="start()">START</button>
+                <button class="btn btn-warning" id="stop" onclick="stop()">STOP</button>
+                <button class="btn btn-warning"  onclick="reset()">RESET</button>
+                <!-- <button class="btn btn-warning"  onclick="store()">STORE</button> -->
+            </div>
+        </section>
+    </section>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
